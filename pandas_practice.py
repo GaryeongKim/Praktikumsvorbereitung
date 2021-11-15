@@ -11,3 +11,12 @@ my_dataframe = pd.DataFrame(data=my_data, columns=my_column_names)
 
 # Print the entire DataFrame
 print(my_dataframe)
+
+"""
+the Python Circular Import problem occurs 
+when you accidentally name your working file the same 
+as the module name and those modules depend on each other. 
+This way the python opens the same file which causes a circular loop and eventually throws an error.
+
+So be carefull do not name python file as same as the existed moduls etc you want to use!
+"""
